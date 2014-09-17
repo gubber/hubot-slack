@@ -52,7 +52,7 @@ class Slack extends Adapter
     channel = message.reply_to || @channelMapping[message.room] || message.room
 
     attachment =
-      text     : @escapeHtml data.text
+      text     : data.text
       fallback : @escapeHtml data.fallback
       pretext  : @escapeHtml data.pretext
       color    : data.color
