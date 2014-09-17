@@ -43,7 +43,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/tinyspeck/hubot-slack.git"
+    "url": "git+http://github.com/gubber/hubot-slack.git"
   },
   "bugs": {
     "url": "https://github.com/tinyspeck/hubot-slack/issues",
