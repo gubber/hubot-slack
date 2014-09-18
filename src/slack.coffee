@@ -53,8 +53,8 @@ class Slack extends Adapter
 
     attachment =
       text     : data.text
-      fallback : @escapeHtml data.fallback
-      pretext  : @escapeHtml data.pretext
+      fallback : data.fallback
+      pretext  : data.pretext
       color    : data.color
       fields   : data.fields
     args = JSON.stringify
